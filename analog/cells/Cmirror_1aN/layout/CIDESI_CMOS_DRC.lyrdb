@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>CIDESI_CMOS DRC runset</description>
- <original-file>C:\Users\esmer\CIDESI\CM05_CELLS\analog\cells\Cmirror_1aN\layout\Cmirror_1aN.gds</original-file>
+ <original-file>C:/Users/esmer/CIDESI/CM05_CELLS/analog/cells/Cmirror_1aN/layout/Cmirror_1aN.gds</original-file>
  <generator>drc: script='C:/Users/esmer/KLayout/salt/CIDESI_CM05/tech/CIDESI_CM05/drc\\drc.lydrc'</generator>
  <top-cell>Cmirror_1aN</top-cell>
  <tags>
@@ -1014,41 +1014,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'2.4 PW_enc_PP'</category>
-   <cell>Cmirror_1aN</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (0,0;0,447.5)/(5,5;5,442.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'2.4 PW_enc_PP'</category>
-   <cell>Cmirror_1aN</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (415.59,0;0,0)/(410,5;5,5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'2.4 PW_enc_PP'</category>
-   <cell>Cmirror_1aN</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (0,447.5;415.59,447.5)/(5,442.5;410,442.5)</value>
-   </values>
-  </item>
  </items>
 </report-database>

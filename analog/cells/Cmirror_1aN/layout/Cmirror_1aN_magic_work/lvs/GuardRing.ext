@@ -1,8 +1,0 @@
-timestamp 1618881774
-version 8.3
-tech scmos
-style standard
-scale 1000 1 0.5
-resistclasses 4700 3500 1191000 1191000 1 4500000 4500000 60 80 45000000
-node "GND�," 0 0 0 0 ppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-substrate "Gnd!" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
