@@ -1,0 +1,47 @@
+* NGSPICE file created from Cmirror_1aN.ext - technology: scmos
+
+.global Vdd Gnd 
+
+.subckt Cmirror_1aN COM  P2_8  P2_4  P2_2  P1
+M1000  P2_4  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1001 COM  P1  P2_8 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1002 COM  P1  P2_8 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1003 COM COM COM Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1004  P2_8  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1005  P2_8  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1006 COM  P1  P2_8 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1007 COM COM COM Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1008  P2_4  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1009 COM  P1  P2_4 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1010 COM  P1  P2_4 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1011  P2_2  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1012  P2_8  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1013  P2_8  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1014 COM  P1  P2_2 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1015 COM COM COM Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1016 COM COM COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1017 COM  P1  P2_8 Gnd nfet w=100u l=10u
++  ad=1.25n pd=0.125m as=2.5n ps=0.25m
+M1018 COM COM COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+M1019  P1  P1 COM Gnd nfet w=100u l=10u
++  ad=2.5n pd=0.25m as=1.25n ps=0.125m
+.ends
+
